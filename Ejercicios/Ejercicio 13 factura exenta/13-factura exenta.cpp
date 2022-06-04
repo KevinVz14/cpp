@@ -12,6 +12,8 @@ int main()
 	double calculoDescuento = 0;
 	double calculoImpuesto = 0;
 	char estaExenta;
+
+    
 	//Datos de entrada	
 	cout<<"Ingrese el subtotal de la factura: ";
 	cin>> subtotal;
