@@ -108,11 +108,11 @@ cout<<"Ingrese una nota entre 0 - 100";
 									}
 										}
 											}														}
+												}
 													}
+														}																		}	
 															}
-																}																		}	
-																		}
-																		 }
+																 }
 
 return 0;
 }
