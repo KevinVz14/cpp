@@ -14,6 +14,7 @@ if (i % 2 == 0 ){
 pares = pares + i;
 
 } 
+
 else {
 			
 impares = impares + i;
@@ -29,8 +30,6 @@ cout<< endl ;
 cout<< "Suma de los impares es:"<< impares ;
 cout<< endl ; cout<< endl ;
 cout<< "Suma de los pares e impares es es: "<< Total ;
-
-
 
 return 0;
 }
