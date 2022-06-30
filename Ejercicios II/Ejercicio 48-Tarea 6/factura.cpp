@@ -29,9 +29,9 @@ void imprimirFactura() {
 	cout<<"Productos: "<< endl; 
 	cout<<listaProductos;
 	cout<<endl;
-	cout<<"Subtotal: " << subtotal;
+	cout<<"Subtotal: L " << subtotal;
 	cout<<endl;
-	cout<<"Total: " <<total ;
+	cout<<"Total: L " <<total ;
 	cout<<endl;
 	system("pause");
 		
