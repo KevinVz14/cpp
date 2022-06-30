@@ -23,7 +23,7 @@ void imprimirFactura() {
 	system("cls");
 	
 	cout<<"***********"<<endl;
-	cout<<"  FACTURA"<<endl;
+	cout<<"  FACTURA  "<<endl;
 	cout<<"***********"<<endl;
 	cout<<endl;
 	cout<<"Productos: "<< endl; 
