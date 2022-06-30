@@ -24,7 +24,7 @@ while (true){
 	cout<<"1- Bebidad Calientes"<<endl;
 	cout<<"2- Bebidad Frias"<<endl;
 	cout<<"3- Reposteria"<<endl;
-	cout<<"4- Salir"<<endl;
+	cout<<"0- Salir"<<endl;
 	cin>> opcion;
 	
 	
