@@ -1,0 +1,54 @@
+ #include <iostream>
+ #include "productos.h"
+ #include "factura.h"
+ 
+ 
+using namespace std;
+
+void menu()
+
+{
+	
+	int opcion = 0;
+
+while (true){
+	
+	system("cls");
+	
+	cout<<"*******";
+	cout<<"MENU";
+	cout<<"*******";
+	cout<<endl;
+	
+	
+	
+	cout<<"1- Bebidad Calientes"<<endl;
+	cout<<"2- Bebidad Frias"<<endl;
+	cout<<"3- Reposteria"<<endl;
+	cout<<"4- Imprimir factura"<<endl;
+	cout<<"0- Salir"<<endl;
+	
+	
+	cout<<endl;
+	cout<<"Seleccione una opcion: ";
+	cin>> opcion;
+	
+	if (opcion == 0){
+		
+    break;		
+	}
+	
+	if (opcion == 4){
+		
+		imprimirFactura();
+			
+	} else {
+		
+		
+			productos(opcion);
+	}
+	
+
+}
+
+}
