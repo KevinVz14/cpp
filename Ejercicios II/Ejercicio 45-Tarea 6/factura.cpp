@@ -12,8 +12,7 @@ void agregarProducto(string descripcion, int cantidad, double precio)
 {
 	listaProductos = listaProductos + descripcion + '\n';
 	subtotal=subtotal + (cantidad * precio);
-	impuesto = (subtotal * impuesto);
-	total = (subtotal + impuesto);
+	total = subtotal + (subtotal * impuesto);
 	
 }
 
