@@ -5,8 +5,8 @@
 using namespace std;
 
 int dado1 = 0;
-	int dado2 = 0;
-	int continuar = 1;	
+int dado2 = 0;
+int continuar = 1;	
 
 int main(){
 	
