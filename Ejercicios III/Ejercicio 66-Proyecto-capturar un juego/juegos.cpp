@@ -49,6 +49,6 @@ string buscarJuego(string codigo){
 			
 		}
 	
-	return " ";
+	return "";
 	
 	}

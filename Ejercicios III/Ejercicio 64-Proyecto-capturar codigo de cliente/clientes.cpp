@@ -54,7 +54,7 @@ string buscarClientes(string codigo){
 		}
 	}
 	
-	return " ";
+	return "";
 }
 
 
