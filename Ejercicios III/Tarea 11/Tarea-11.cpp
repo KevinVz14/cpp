@@ -6,7 +6,7 @@ using namespace std;
 
 int numeroAlazar(){
 	
-	return rand() % 5 + 1;
+	return rand() % 9 + 1;
 }
 
 int main () {
