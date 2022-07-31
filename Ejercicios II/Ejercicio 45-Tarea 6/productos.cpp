@@ -37,6 +37,7 @@ void productos(int opcion){
 		default:
 			{
 			cout << "Opcion no valida "<< endl ;
+				system("pause");
 			return;
 			break;
 		}	

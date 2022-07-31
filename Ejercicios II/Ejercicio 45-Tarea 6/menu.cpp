@@ -45,7 +45,6 @@ while (true){
 			
 	} else {
 		
-		
 			productos(opcion);
 	}
 	

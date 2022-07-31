@@ -4,7 +4,8 @@ using namespace std;
 
 int main ()  {
 
-cout<<"Hola mundo!";
+cout<<"Hola mundo!"<<endl;
+cout<<"Hola mundo!"<<endl;
 
 return 0;
 }

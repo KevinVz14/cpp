@@ -7,11 +7,7 @@ using namespace std;
 
 void menu(){
 	
-	bool salir = false;
-	
-	
-	while(salir == false){
-		
+
 		int opcion  = 0;
 		
 		cout<<"MENU PRINCIPAL"<<endl;
@@ -64,4 +60,4 @@ void menu(){
 	}
 	
 	
-}
+
