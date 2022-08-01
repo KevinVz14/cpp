@@ -10,20 +10,19 @@ void menuTienda(){
 	while (true){
 		
 	system("cls");	
-	
 	cout<<"-----------------------------------------------------------------"<<endl;
 	cout<<"-*****************************MENU*******************************-"<<endl;
 	cout<<"------------------------------------------------------------------"<<endl;
 	cout<<endl;
-	cout<<endl;
 	cout<<"1 - Televisiones "<<endl;
-	cout<<"2 - Celulares y accesorios "<<endl;
+	cout<<"2 - Celulares y Accesorios "<<endl;
 	cout<<"3 - Computadoras "<<endl;
 	cout<<"4 - Video Juegos y Accesorios"<<endl;
-	cout<<"5 - Imprimir factura"<<endl;
+	cout<<"5 - Carrito de compras"<<endl;
+	cout<<"6 - Imprimir factura"<<endl;
 	cout<<"0 - Salir"<<endl;
 	cout<<endl;
-	cout<<"Seleccione una opcion del menu --> : ";
+	cout<<"Seleccione una opcion del menu -->: ";
 	cin>> opc;
 	
 	
@@ -32,7 +31,13 @@ void menuTienda(){
     break;		
 	}
 	
+	
 	if (opc == 5){
+		presentaP();
+			
+	}
+	
+	if (opc == 6){
 		
 		imprimirFacturatienda();
 			
