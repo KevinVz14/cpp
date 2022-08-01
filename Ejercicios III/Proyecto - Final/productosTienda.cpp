@@ -351,15 +351,298 @@ break;
 	    cout << "Producto agregado"<<endl<<endl;
 	    system("pause");
 		break;
-	}		
-			
-				
-			break;
-			}	
-			
-		}
+		
+			}				
+		}			
+	}
 
+break;
+/*Menu principal (CASE 3) Computadoras */
+
+case 3:{
+	system("cls");
+			cout<<" BIENVENIDO A COMPUTADORAS "<<endl;
+			cout << " 1 - DELL  " << endl;
+			cout << " 2 - LENOVO " << endl;
+			cout << " 3 - HP " << endl;
+			cout << "---------------------------" << endl;
+			cout<<endl;
+			cout << "Seleccione una marca: ";
+			cin >> selectmrc;
+			
+	switch(selectmrc)
+	{
+	case 1: {
+	system("cls");
+		cout << " BIENVENIDO A COMPUTADORAS DELL " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - Laptop Dell Inspiron 15 pulg / AMD Ryzen 7/ 8GB RAM/ 512GB SSD " << endl;
+		cout << "2 - Laptop Dell Inspiron 15 pulg 3205/ Celeron N4020/ 4GB RAM/ 128GB SSD" << endl;
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+		case 1: {
+				agregarProductotienda(" 1 - Laptop Dell Inspiron 15 pulg /AMD Ryzen 7/8GB RAM/ 512GB SSD - L 18,000.00 ", 1, 18000);
+				break;
+			}
+			
+		case 2: {
+				agregarProductotienda(" 1 - Laptop Dell Inspiron 15 pulg 3205/Celeron N4020/4GB RAM/128GB SSD - L 10,000.00 ", 1, 10000);
+				break;
+			}
+	
 		default:
-	break;
-	}	
+			{
+			cout << "Opcion no valida "<< endl ;
+			system("pause");
+			return;
+			break;
+		}	
+	}
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+
 }
+	case 2: {
+		system("cls");
+		cout << " BIENVENIDO A COMPUTADORAS LENOVO " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/4GB RAM" << endl;	
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+		case 1: {
+				agregarProductotienda(" 1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/ 4GB RAM - L 7,000.00 ", 1, 10000);
+				break;
+			}
+			
+		default:
+			{
+			cout << "Opcion no valida "<< endl ;
+			system("pause");
+			return;
+			break;
+						}
+					}
+					
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+	
+				}
+				
+			case 3: {
+		system("cls");
+		cout << " BIENVENIDO A COMPUTADORAS HP " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - Laptop HP 14 pulg / Intel Core i5/ 11va Generación/ 8GB RAM/ 256GB SSD " << endl;			
+		cout << "2 - Laptop HP Victus 16 pulg / Intel Core i5/ 8GB RAM/ 256GB SSD "<< endl;
+		cout << "3 - Laptop HP 15 pulg / AMD Ryzen 5/ 8GB RAM/ 256GB SSD " << endl;	
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+		case 1: {
+				agregarProductotienda(" 1 - Laptop HP 14 pulg / Intel Core i5/ 8GB RAM/ 256GB SSD - L 19,000.00 ", 1, 19000);
+				break;
+			}
+		case 2: {
+				agregarProductotienda(" 1 - Laptop HP Victus 16 pulg /Intel Core i5/8GB RAM/256GB SSD - L 28,000.00 ", 1, 28000);
+				break;
+			}
+			
+		case 3: {
+				agregarProductotienda(" 1 - Laptop HP 15 pulg /AMD Ryzen 5/8GB RAM/256GB SSD - L 18,000.00 ", 1, 18000);
+				break;
+			}
+		
+			
+		default:
+		{
+		cout << "Opcion no valida "<< endl ;
+		system("pause");
+		return;
+		break;
+		
+	}
+}
+					
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+	
+				}		
+			}
+		}
+	break;	
+	
+	/*Menu principal (CASE 4) Video juegos */
+		case 4:{
+			system("cls");
+			cout<<" BIENVENIDO A VIDEO JUEGOS Y COSOLAS "<<endl;
+			cout << " 1 - Play Station  " << endl;
+			cout << " 2 - XBOX " << endl;
+			cout << " 3 - Nintendo " << endl;
+			cout << "---------------------------" << endl;
+			cout<<endl;
+			cout << "Seleccione una marca: ";
+			cin >> selectmrc;
+			
+switch(selectmrc)
+	{
+		
+	case 1: {
+	system("cls");
+		cout << " BIENVENIDO A PLAY STATION " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - DualShock 4 Controlador inalambrico para PlayStation 4 " << endl;
+		cout << "2 - FIFA 22 para PS4 " << endl;			
+		cout << "3 - Elden Ring para PS5" << endl;
+		cout << "4 - BATTLEFIELD para PS5 " << endl;
+		cout << "5 - Consola Sony PlayStation 5 " << endl;
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+	case 1: {
+				agregarProductotienda(" 1 - DualShock 4 Controlador inalambrico para PlayStation 4 - L 1,473.00 ", 1, 1473);
+				break;
+			}
+	case 2: {
+				agregarProductotienda(" 1 - FIFA 22 para PS4  - L 1,800.00 ", 1, 1800);
+				break;
+			}
+			
+	case 3: {
+				agregarProductotienda(" 1 - Elden Ring para PS5 - L 2,300.00 ", 1, 2300);
+				break;
+			}
+			
+	case 4: {
+				agregarProductotienda(" 1 - BATTLEFIELD 2042  - L 1,900.00 ", 1, 1900);
+				break;
+			}
+			
+	case 5: {
+				agregarProductotienda(" 1 - Consola Sony PlayStation 5 - L 33,000.00 ", 1, 33000);
+				break;
+			}
+		
+		default:
+			{
+			cout << "Opcion no valida "<< endl ;
+			system("pause");
+			return;
+			break;
+		}	
+	}
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+	}
+		
+		
+		case 2: {
+	system("cls");
+		cout << " BIENVENIDO A XBOX " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - Consola Xbox One " << endl;
+		cout << "2 - FIFA 22 para Xbox one " << endl;			
+		cout << "3 - Consola Xbox One " << endl;
+		
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+	case 1: {
+				agregarProductotienda(" 1 - Consola Xbox One - L 9,800.00 ", 1, 9800);
+				break;
+			}
+	case 2: {
+				agregarProductotienda(" 1 - FIFA 22 para Xbox one - L 1,900.00 ", 1, 1900);
+				break;
+			}
+			
+	case 3: {
+				agregarProductotienda(" 1 - Consola Xbox One X - L 15,000.00 ", 1, 15000);
+				break;
+			}
+			
+		default:
+			{
+			cout << "Opcion no valida "<< endl ;
+			system("pause");
+			return;
+			break;
+		}	
+	}
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+	}
+		
+	case 3: {
+	system("cls");
+		cout << " BIENVENIDO A NINTENDO " << endl;
+		cout << "*********************************" << endl;
+		cout<<endl;
+		cout << "1 - Nintendo Switch " << endl;						
+		cout << "2 - Nintendo Super Mario 3D World " << endl;
+		cout<<endl;
+		cout << "Ingrese una opcion del menu  --> : ";
+		cin >> selectprd;
+	
+		switch (selectprd) {
+		
+	case 1: {
+				agregarProductotienda(" 1 - Nintendo Switch - L 6,385.00 ", 1, 6385);
+				break;
+			}
+			
+			
+	case 2: {
+				agregarProductotienda(" 1 - Nintendo Super Mario 3D World - L 1,600.00 ", 1, 1600);
+				break;
+			}		
+		default:
+			{
+			cout << "Opcion no valida "<< endl ;
+			system("pause");
+			return;
+			break;
+		}	
+	}
+		cout << endl ;
+	    cout << "Producto agregado"<<endl<<endl;
+	    system("pause");
+		break;
+	}	
+		
+			break;
+			}
+		}
+	}		
+}		

@@ -17,7 +17,7 @@ void menuTienda(){
 	cout<<"1 - Televisiones "<<endl;
 	cout<<"2 - Celulares y Accesorios "<<endl;
 	cout<<"3 - Computadoras "<<endl;
-	cout<<"4 - Video Juegos y Accesorios"<<endl;
+	cout<<"4 - Video Juegos y Consolas"<<endl;
 	cout<<"5 - Carrito de compras"<<endl;
 	cout<<"6 - Imprimir factura"<<endl;
 	cout<<"0 - Salir"<<endl;
