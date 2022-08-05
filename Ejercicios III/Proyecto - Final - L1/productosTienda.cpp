@@ -13,19 +13,20 @@ void productosTienda(int opc){
 	system("cls");	
 	system("cls");
 		cout << " BIENVENIDO A TELEVISORES " << endl;
+		cout<<endl;
 		cout << " 1 - RCA  " << endl;
 		cout << " 2 - Samsung " << endl;
 		cout << " 3 - LG " << endl;
 		cout << "-------------------------" << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion:";
+		cout << "Seleccione una marca: ";
 		cin >> selectmrc;
 		
 	switch(selectmrc)
 	{
 	case 1: {
 	system("cls");
-		cout << " BIENVENIDO A TELEVISORES RCA " << endl;
+		cout << "  \t TELEVISORES RCA " << endl;
 		cout << "*********************************" << endl;
 		cout<<endl;
 		cout << "1 - Smart TV RCA LED 65 pulg 4k " << endl;			
@@ -33,7 +34,7 @@ void productosTienda(int opc){
 		cout << "3 - Smart TV RCA LED 43 pulg HD " << endl;			
 		cout << "4 - Smart TV RCA 46 pulg LED FHD " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -75,15 +76,15 @@ void productosTienda(int opc){
 
 case 2: {
 	system("cls");
-		cout << " BIENVENIDO A TELEVISORES SAMSUNG " << endl;
-		cout << "*********************************" << endl;
+		cout << "  \t TELEVISORES SAMSUNG " << endl;
+		cout << "*************************************" << endl;
 		cout<<endl;
 		cout << "1 - Smart TV Samsung 43 pulg UHD 4K " << endl;
 		cout << "2 - Smart TV Samsung 43 pulg Crystal UHD 4K" << endl;
 		cout << "3 - Samsung 75 pulg  " << endl;	
 		cout << "4 - Samsung Televisor 32 pulg "<< endl;	
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -125,15 +126,15 @@ case 2: {
 
 case 3: {
 	system("cls");
-		cout << " BIENVENIDO A TELEVISORES LG " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t TELEVISORES LG " << endl;
+		cout << "*******************************" << endl;
 		cout<<endl;
 		cout << "1 - Smart TV LG 43 pulg LED 4K ThinQ AI " << endl;
 		cout << "2 - Smart TV LG 55 pulg NanoCell 4K ThinQ AI " << endl;
 		cout << "3 - LG Televisor 43 pulg Smart TV " << endl;
 		cout << "4 - LG Televisor de 55 pulg " << endl;	
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -179,6 +180,7 @@ break;
 	case 2:{
 				system("cls");
 			cout<<" BIENVENIDO A CELULARES Y ACCESORIOS "<<endl;
+			cout<<endl;
 			cout << " 1 - XIAOMI  " << endl;
 			cout << " 2 - Samsung " << endl;
 			cout << " 3 - APPLE " << endl;
@@ -191,8 +193,8 @@ break;
 	{
 	case 1: {
 	system("cls");
-		cout << " BIENVENIDO A CELULARES Y ACCESORIOS XIAOMI " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t CELULARES Y ACCESORIOS XIAOMI " << endl;
+		cout << "***********************************************" << endl;
 		cout<<endl;
 		cout << "1 - Xiaomi POCO X3 RAM 6GB " << endl;
 		cout << "2 - Xiaomi Redmi 10  " << endl;
@@ -200,7 +202,7 @@ break;
 		cout << "4 - Xiaomi Redmi Note 9 Pro  " << endl;
 		cout << "5 - Xiaomi Mi 11 Lite " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -245,8 +247,8 @@ break;
 			
 		case 2: {
 		system("cls");
-		cout << " BIENVENIDO A CELULARES Y ACCESORIOS SAMSUNG " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t CELULARES Y ACCESORIOS SAMSUNG " << endl;
+		cout << "************************************************" << endl;
 		cout<<endl;
 		cout << "1 - Samsung Galaxy A13 " << endl;			
 		cout << "2 - Samsung Galaxy A23" << endl;
@@ -255,7 +257,7 @@ break;
 		cout << "5 - Cobertor de Silicon Samsung Galaxy S21 FE " << endl;
 		cout << "6 - Samsung Wireless Charger Stand (15W) " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -306,15 +308,15 @@ break;
 		
 		case 3: {
 		system("cls");
-		cout << " BIENVENIDO A CELULARES Y ACCESORIOS APPLE " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t CELULARES Y ACCESORIOS APPLE " << endl;
+		cout << "***********************************************" << endl;
 		cout<<endl;
 		cout << "1 - Apple iPhone 13 " << endl;
 		cout << "2 - Apple Cargador Inalambrico " << endl;
 		cout << "3 - Apple iPhone XR " << endl;
 		cout << "4 - Apple iPhone 11 Pro " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -361,7 +363,8 @@ break;
 
 case 3:{
 	system("cls");
-			cout<<" BIENVENIDO A COMPUTADORAS "<<endl;
+			cout<<" BIENVENIDO A LAPTOPS "<<endl;
+			cout<<endl;
 			cout << " 1 - DELL  " << endl;
 			cout << " 2 - LENOVO " << endl;
 			cout << " 3 - HP " << endl;
@@ -374,13 +377,13 @@ case 3:{
 	{
 	case 1: {
 	system("cls");
-		cout << " BIENVENIDO A COMPUTADORAS DELL " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t LAPTOPS DELL " << endl;
+		cout << "******************************" << endl;
 		cout<<endl;
 		cout << "1 - Laptop Dell Inspiron 15 pulg / AMD Ryzen 7/ 8GB RAM/ 512GB SSD " << endl;
 		cout << "2 - Laptop Dell Inspiron 15 pulg 3205/ Celeron N4020/ 4GB RAM/ 128GB SSD" << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -411,12 +414,12 @@ case 3:{
 }
 	case 2: {
 		system("cls");
-		cout << " BIENVENIDO A COMPUTADORAS LENOVO " << endl;
+		cout << " \t LAPTOPS LENOVO " << endl;
 		cout << "*********************************" << endl;
 		cout<<endl;
 		cout << "1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/4GB RAM" << endl;	
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -444,14 +447,14 @@ case 3:{
 				
 			case 3: {
 		system("cls");
-		cout << " BIENVENIDO A COMPUTADORAS HP " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t LAPTOPS HP " << endl;
+		cout << "*******************************" << endl;
 		cout<<endl;
 		cout << "1 - Laptop HP 14 pulg / Intel Core i5/ 11va Generación/ 8GB RAM/ 256GB SSD " << endl;			
 		cout << "2 - Laptop HP Victus 16 pulg / Intel Core i5/ 8GB RAM/ 256GB SSD "<< endl;
 		cout << "3 - Laptop HP 15 pulg / AMD Ryzen 5/ 8GB RAM/ 256GB SSD " << endl;	
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -495,6 +498,7 @@ case 3:{
 		case 4:{
 			system("cls");
 			cout<<" BIENVENIDO A VIDEO JUEGOS Y COSOLAS "<<endl;
+			cout<<endl;
 			cout << " 1 - Play Station  " << endl;
 			cout << " 2 - XBOX " << endl;
 			cout << " 3 - Nintendo " << endl;
@@ -508,7 +512,7 @@ switch(selectmrc)
 		
 	case 1: {
 	system("cls");
-		cout << " BIENVENIDO A PLAY STATION " << endl;
+		cout << " \t  PLAY STATION " << endl;
 		cout << "*********************************" << endl;
 		cout<<endl;
 		cout << "1 - DualShock 4 Controlador inalambrico para PlayStation 4 " << endl;
@@ -517,7 +521,7 @@ switch(selectmrc)
 		cout << "4 - BATTLEFIELD para PS5 " << endl;
 		cout << "5 - Consola Sony PlayStation 5 " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -563,15 +567,15 @@ switch(selectmrc)
 		
 		case 2: {
 	system("cls");
-		cout << " BIENVENIDO A XBOX " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t  XBOX " << endl;
+		cout << "*************************" << endl;
 		cout<<endl;
 		cout << "1 - Consola Xbox One " << endl;
 		cout << "2 - FIFA 22 para Xbox one " << endl;			
 		cout << "3 - Consola Xbox One " << endl;
 		
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {
@@ -606,13 +610,13 @@ switch(selectmrc)
 		
 	case 3: {
 	system("cls");
-		cout << " BIENVENIDO A NINTENDO " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t NINTENDO " << endl;
+		cout << "**************************" << endl;
 		cout<<endl;
 		cout << "1 - Nintendo Switch " << endl;						
 		cout << "2 - Nintendo Super Mario 3D World " << endl;
 		cout<<endl;
-		cout << "Ingrese una opcion del menu  --> : ";
+		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
 	
 		switch (selectprd) {

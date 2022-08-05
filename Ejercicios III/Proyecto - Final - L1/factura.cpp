@@ -1,4 +1,5 @@
 #include <iostream>
+#include "factura.h"
 
 using namespace std;
 
@@ -19,11 +20,14 @@ void agregarProductotienda(string descripcion, int cantidad, double precio)
 }
 
 void presentaP(){
+	
 	system("cls");
-	cout<<"Carro de compras "<< endl; 
+	cout<<"--------------------------------------------------------------------------------";
+	cout << "\t\t\t\t CARRITO DE COMPRAS"<<endl;
+	cout<<"--------------------------------------------------------------------------------"<<endl;
 	cout<<"Productos adquiridos hasta el momento : "<< endl; 
 	cout<<endl;
-	cout<<listaProductostienda;
+	cout<<listaProductostienda <<endl;
 	cout<<endl;	cout<<endl;
 	system("pause");	
 }
@@ -45,11 +49,11 @@ string Delivery(){
 	cout<<" Ingrese la hora que desea recibir el paquete : ";
 	cin >> hora;
 	
-	
+	barraFact();
 	system("cls");
-	cout<<"*******************************"<<endl;
-	cout<<"   FACTURA CON DELIVERY   "<<endl;
-	cout<<"------------------------------"<<endl;
+	cout<<"--------------------------------------------------------------------------------";
+	cout << "\t\t\t\t FACTURA"<<endl;
+	cout<<"--------------------------------------------------------------------------------"<<endl;
 	cout<<" Nombre completo | Direccion | Hora "   << endl;
 	cout << nombreCompleto << " |  " << dir << " | " << hora ;
 	cout<<endl;	cout<<endl;	cout<<endl;	
@@ -69,10 +73,11 @@ string Delivery(){
 
 void imprimirFacturatienda() {
 	
+		barraFact();
 	system("cls");
-	cout<<"********************************"<<endl;
-	cout<<"         FACTURA        "<<endl;
-	cout<<"---------------------------------"<<endl;
+	cout<<"--------------------------------------------------------------------------------";
+	cout << "\t\t\t\t FACTURA"<<endl;
+	cout<<"--------------------------------------------------------------------------------"<<endl;
 	cout<<endl;	cout<<endl;
 	cout<<" Productos adquiridos : "<< endl; 
 	cout<<" Cantidad | Descripcion | Precio  "<< endl; 

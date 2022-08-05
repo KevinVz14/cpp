@@ -8,18 +8,18 @@ void menuTienda(){
 	int opc = 0;
 	
 	while (true){
-		
-	system("cls");	
+		system("color 07");
+	system("cls");		
 	cout<<"-------------------------------------------------------------------------------"<<endl;
-	cout << "\t\t\t\t TECCHONOLOGY STORE!"<<endl;
+	cout << "\t\t\t\t TECCHONOLOGY STORE"<<endl;
 	cout<<"--------------------------------------------------------------------------------"<<endl;
 	cout<<endl;
-	cout<<"1 - Televisiones "<<endl;
+	cout<<"1 - Televisores "<<endl;
 	cout<<"2 - Celulares y Accesorios "<<endl;
-	cout<<"3 - Computadoras "<<endl;
+	cout<<"3 - Laptops "<<endl;
 	cout<<"4 - Video Juegos y Consolas"<<endl;
 	cout<<"5 - Carrito de compras"<<endl;
-	cout<<"6 - Imprimir factura con delivery "<<endl;
+	cout<<"6 - Servicio de delivery "<<endl;
 	cout<<"7 - Imprimir factura"<<endl;
 	cout<<"0 - Salir"<<endl;
 	cout<<endl;
@@ -36,7 +36,8 @@ void menuTienda(){
 	}
 	
 	
-	if (opc == 6){		
+	if (opc == 6){
+	system("cls");	
 	Delivery();		
 	}
 	
