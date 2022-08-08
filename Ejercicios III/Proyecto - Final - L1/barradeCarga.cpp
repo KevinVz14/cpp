@@ -25,6 +25,6 @@ int barraC(){
 	cout << "\t\t\t BIENVENIDO A TECCHONOLOGY STORE!"<<endl;
 	system("pause");
 	
-	return 0;
+		return 0;
 	}
 }

@@ -26,13 +26,17 @@ void productosTienda(int opc){
 	{
 	case 1: {
 	system("cls");
-		cout << "  \t TELEVISORES RCA " << endl;
-		cout << "*********************************" << endl;
+	cout<<endl;
+		cout << "  \t\t\t\t TELEVISORES RCA " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - Smart TV RCA LED 65 pulg 4k " << endl;			
-		cout << "2 - Smart TV  RCA LED 32 pulg HD" << endl;	
-		cout << "3 - Smart TV RCA LED 43 pulg HD " << endl;			
-		cout << "4 - Smart TV RCA 46 pulg LED FHD " << endl;
+		cout << "\t\t PRODUCTO \t\t\t    PRECIO"<< endl;
+		cout<<endl;
+		
+		cout << "1 - Smart TV RCA LED 65 pulg 4k " <<" \t\t L 16,000.00 " << endl;			
+		cout << "2 - Smart TV  RCA LED 32 pulg HD" <<" \t\t L 7,000.00 " << endl;	
+		cout << "3 - Smart TV RCA LED 43 pulg HD " <<" \t\t L 6,000.00 " << endl;			
+		cout << "4 - Smart TV RCA 46 pulg LED FHD " <<"\t\t L 10,000.00 " << endl;
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
@@ -40,7 +44,7 @@ void productosTienda(int opc){
 		switch (selectprd) {
 		
 	case 1: {
-		agregarProductotienda("1 - Smart TV RCA LED 65 pulg 4k - L 16000.00 ", 1, 16000);
+		agregarProductotienda("1 - Smart TV RCA LED 65 pulg 4k - L 16,000.00 ", 1, 16000);
 		break;		
 		}
 		
@@ -76,13 +80,16 @@ void productosTienda(int opc){
 
 case 2: {
 	system("cls");
-		cout << "  \t TELEVISORES SAMSUNG " << endl;
-		cout << "*************************************" << endl;
+	cout<<endl;
+		cout << "  \t\t\t\t TELEVISORES SAMSUNG " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - Smart TV Samsung 43 pulg UHD 4K " << endl;
-		cout << "2 - Smart TV Samsung 43 pulg Crystal UHD 4K" << endl;
-		cout << "3 - Samsung 75 pulg  " << endl;	
-		cout << "4 - Samsung Televisor 32 pulg "<< endl;	
+		cout << "\t\t PRODUCTO \t\t\t   PRECIO"<< endl;
+		cout<<endl;
+		cout << "1 - Smart TV Samsung 43 pulg UHD 4K " <<" \t\t L 10,495.00 " << endl;
+		cout << "2 - Smart TV Samsung 43 pulg Crystal UHD 4K" <<"\t L 13,000.00 "<< endl;
+		cout << "3 - Samsung 75 pulg  " <<" \t\t\t\t L 32,000.00 " << endl;	
+		cout << "4 - Samsung Televisor 32 pulg "<<" \t\t\t L 6,500.00 "<< endl;	
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
@@ -126,13 +133,16 @@ case 2: {
 
 case 3: {
 	system("cls");
-		cout << " \t TELEVISORES LG " << endl;
-		cout << "*******************************" << endl;
+	cout<<endl;
+		cout << " \t\t\t\t TELEVISORES LG " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - Smart TV LG 43 pulg LED 4K ThinQ AI " << endl;
-		cout << "2 - Smart TV LG 55 pulg NanoCell 4K ThinQ AI " << endl;
-		cout << "3 - LG Televisor 43 pulg Smart TV " << endl;
-		cout << "4 - LG Televisor de 55 pulg " << endl;	
+		cout << "\t\t PRODUCTO \t\t\t   PRECIO"<< endl;
+		cout<<endl;
+		cout << "1 - Smart TV LG 43 pulg LED 4K ThinQ AI " <<" \t L 10,495.00 " << endl;
+		cout << "2 - Smart TV LG 55 pulg NanoCell 4K ThinQ AI " <<" \t L 19,000.00 " << endl;
+		cout << "3 - LG Televisor 43 pulg Smart TV " <<" \t\t L 10,500.00 " << endl;
+		cout << "4 - LG Televisor de 55 pulg "  <<" \t\t\t L 15,500.00 "<< endl;	
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
@@ -150,7 +160,7 @@ case 3: {
 		}
 	
 	case 3: {
-		agregarProductotienda("1- LG Televisor 43 pulg Smart TV - L 10,695.00 ", 1, 10695);
+		agregarProductotienda("1- LG Televisor 43 pulg Smart TV - L 10,500.00 ", 1, 10500);
 		break;		
 		}
 		
@@ -417,7 +427,9 @@ case 3:{
 		cout << " \t LAPTOPS LENOVO " << endl;
 		cout << "*********************************" << endl;
 		cout<<endl;
-		cout << "1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/4GB RAM" << endl;	
+		cout << "1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/4GB RAM" << endl;
+		cout << "2 - Laptop Lenovo IdeaPad 3 14 pulg/ Intel Core i3/ 8GB RAM/ 256GB SSD" << endl;
+		cout << "3 - Laptop Lenovo IdeaPad Gaming 3 15 pulg/ Intel Core i5/ 8GB RAM/ 512GB SSD " << endl;	
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
@@ -425,10 +437,19 @@ case 3:{
 		switch (selectprd) {
 		
 		case 1: {
-				agregarProductotienda(" 1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/ 4GB RAM - L 7,000.00 ", 1, 10000);
+				agregarProductotienda(" 1 - Laptop Lenovo IdeaPad D330 10 pulg / Intel Celeron/ 4GB RAM - L 7,000.00 ", 1, 7000);
 				break;
 			}
 			
+		case 2: {
+				agregarProductotienda(" 1 - Laptop Lenovo IdeaPad 3 14 pulg/ i3/ 8GB RAM/ - L 17,000.00 ", 1, 17000);
+				break;
+			}
+			
+		case 3: {
+				agregarProductotienda(" 1 - Laptop Lenovo IdeaPad Gaming 3 15 pulg/ i5/ 8GB RAM/ 512GB SSD - L 24,000.00 ", 1, 24000);
+				break;
+			}	
 		default:
 			{
 			cout << "Opcion no valida "<< endl ;
@@ -447,8 +468,10 @@ case 3:{
 				
 			case 3: {
 		system("cls");
-		cout << " \t LAPTOPS HP " << endl;
-		cout << "*******************************" << endl;
+		cout << " \t\t\t\t LAPTOPS HP " << endl;
+		cout << "********************************************************************************" << endl;
+		cout<<endl;
+		cout << "\t\t PRODUCTO \t\t\t\t\t    PRECIO"<< endl;
 		cout<<endl;
 		cout << "1 - Laptop HP 14 pulg / Intel Core i5/ 11va Generación/ 8GB RAM/ 256GB SSD " << endl;			
 		cout << "2 - Laptop HP Victus 16 pulg / Intel Core i5/ 8GB RAM/ 256GB SSD "<< endl;
@@ -512,14 +535,17 @@ switch(selectmrc)
 		
 	case 1: {
 	system("cls");
-		cout << " \t  PLAY STATION " << endl;
-		cout << "*********************************" << endl;
+		cout << " \t\t\t\t PLAY STATION " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - DualShock 4 Controlador inalambrico para PlayStation 4 " << endl;
-		cout << "2 - FIFA 22 para PS4 " << endl;			
-		cout << "3 - Elden Ring para PS5" << endl;
-		cout << "4 - BATTLEFIELD para PS5 " << endl;
-		cout << "5 - Consola Sony PlayStation 5 " << endl;
+		cout << "\t\t PRODUCTO \t\t\t\t\t    PRECIO"<< endl;
+		cout<<endl;
+		cout << "1 - DualShock 4 Controlador inalambrico para PlayStation 4 " <<"\t L 1,500.00 "<< endl;
+		cout << "2 - FIFA 22 para PS4 " <<" \t\t\t\t\t\t L 1,800.00 " << endl;	
+		cout << "3 - Elden Ring para PS5" <<" \t\t\t\t\t L 2,300.00 " << endl;
+		cout << "4 - BATTLEFIELD para PS5 " <<" \t\t\t\t\t L 1,900.00 "<< endl;
+		cout << "5 - Consola Sony PlayStation 5 " <<" \t\t\t\t L 33,000.00 " << endl;
+		cout << "6 - Consola PlayStation 4 " <<" \t\t\t\t\t L 18,000.00 " << endl;
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;
@@ -527,7 +553,7 @@ switch(selectmrc)
 		switch (selectprd) {
 		
 	case 1: {
-				agregarProductotienda(" 1 - DualShock 4 Controlador inalambrico para PlayStation 4 - L 1,473.00 ", 1, 1473);
+				agregarProductotienda(" 1 - DualShock 4 Controlador inalambrico para PlayStation 4 - L 1,500.00 ", 1, 1500);
 				break;
 			}
 	case 2: {
@@ -549,6 +575,11 @@ switch(selectmrc)
 				agregarProductotienda(" 1 - Consola Sony PlayStation 5 - L 33,000.00 ", 1, 33000);
 				break;
 			}
+			
+	case 6: {
+				agregarProductotienda(" 1 - Consola Sony PlayStation 4 - L 18,000.00 ", 1, 18000);
+				break;
+			}
 		
 		default:
 			{
@@ -567,12 +598,15 @@ switch(selectmrc)
 		
 		case 2: {
 	system("cls");
-		cout << " \t  XBOX " << endl;
-		cout << "*************************" << endl;
+		cout << " \t\t\t\t  XBOX " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - Consola Xbox One " << endl;
-		cout << "2 - FIFA 22 para Xbox one " << endl;			
-		cout << "3 - Consola Xbox One " << endl;
+		cout << "\t PRODUCTO \t\t   PRECIO"<< endl;
+		cout<<endl;
+		cout << "1 - Consola Xbox One" <<" \t\t L 9,800.00 "<< endl;
+		cout << "2 - FIFA 22 para Xbox one" <<" \t L 1,900.00 " << endl;			
+		cout << "3 - Consola Xbox One" <<"\t\t L 15,000.00 " << endl;
+		cout << "4 - Consola Xbox Series S" <<"\t L 10,000.00 " << endl;
 		
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
@@ -594,6 +628,11 @@ switch(selectmrc)
 				break;
 			}
 			
+			
+	case 4: {
+				agregarProductotienda(" 1 - Consola Xbox Series S - L 10,000.00 ", 1, 10000);
+				break;
+			}		
 		default:
 			{
 			cout << "Opcion no valida "<< endl ;
@@ -610,11 +649,13 @@ switch(selectmrc)
 		
 	case 3: {
 	system("cls");
-		cout << " \t NINTENDO " << endl;
-		cout << "**************************" << endl;
+		cout << " \t\t\t\t NINTENDO " << endl;
+		cout << "********************************************************************************" << endl;
 		cout<<endl;
-		cout << "1 - Nintendo Switch " << endl;						
-		cout << "2 - Nintendo Super Mario 3D World " << endl;
+		cout << "\t PRODUCTO \t\t\t   PRECIO"<< endl;
+		cout<<endl;
+		cout << "1 - Nintendo Switch " <<" \t\t\t L 6,385.00 " << endl;						
+		cout << "2 - Nintendo Super Mario 3D World " <<" \t L 1,600.00 " << endl;
 		cout<<endl;
 		cout << "Seleccione el producto que desea comprar --> : ";
 		cin >> selectprd;

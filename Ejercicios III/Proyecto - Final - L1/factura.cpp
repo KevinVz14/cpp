@@ -9,6 +9,11 @@ double impuesto = 0.15;
 double delivery = 0;
 double envio = 150;
 
+string nombreCompleto;
+string fec;
+string dir;
+string hora;
+
 string listaProductostienda;
 
 void agregarProductotienda(string descripcion, int cantidad, double precio)
@@ -34,39 +39,42 @@ void presentaP(){
 
 
 
-string Delivery(){
-	
-	system("cls");
-	
-	string nombreCompleto = "";
+void Delivery(){
+system("cls");
+
+	string nombre = "";
+	string fechaEntrega = "";
 	string dir = "";
 	string hora = "";
-	
-	cout<<" Ingrese su nombre : ";
-	cin >> nombreCompleto;
-	cout<<" Ingrese su Direcion : ";
+
+
+	cout << " Ingrese su nombre : ";
+	cin >> nombre;
+	cout << " Ingrese a fecha que desea recibir su pedido (dia/mes/año): ";
+	cin >> fechaEntrega;
+	cout << " Ingrese su Direcion : ";
 	cin >> dir;
-	cout<<" Ingrese la hora que desea recibir el paquete : ";
+	cout << " Ingrese la hora que desea recibir su pedido (formato 24 hrs): ";
 	cin >> hora;
-	
+
 	barraFact();
 	system("cls");
-	cout<<"--------------------------------------------------------------------------------";
-	cout << "\t\t\t\t FACTURA"<<endl;
-	cout<<"--------------------------------------------------------------------------------"<<endl;
-	cout<<" Nombre completo | Direccion | Hora "   << endl;
-	cout << nombreCompleto << " |  " << dir << " | " << hora ;
-	cout<<endl;	cout<<endl;	cout<<endl;	
-	cout<<" Productos adquiridos : "<< endl; 
-	cout<<" Cantidad | Descripcion | Precio  "<< endl; 
-	cout<<listaProductostienda;
-	cout<<endl;	cout<<endl;
-	cout<<"Subtotal de la compra : L " << subtotal;
-	cout<<endl;
-	cout<<"Cobro por envio : L " <<envio << endl ;
-	cout<<"Total de la compra : L " <<delivery ;
-	cout<<endl;	cout<<endl; cout<<endl;	cout<<endl;
-	cout<<" Muchas gracias por su compra.  "<< endl; 
+	cout << "--------------------------------------------------------------------------------";
+	cout << "\t\t\t\t FACTURA" << endl;
+	cout << "--------------------------------------------------------------------------------" << endl;
+	cout << "Nombre  	|  	fecha de entrega       |   Direccion    | Hora " << endl;
+	cout << nombre << " | "  <<  fechaEntrega << " |  " << dir << " | " << hora;
+	cout << endl;	cout << endl;	cout << endl;
+	cout << " Productos adquiridos : " << endl;
+	cout << " Cantidad | Descripcion | Precio  " << endl;
+	cout << listaProductostienda;
+	cout << endl;	cout << endl;
+	cout << "Subtotal de la compra : L " << subtotal;
+	cout << endl;
+	cout << "Cobro por envio : L " << envio << endl;
+	cout << "Total de la compra : L " << delivery;
+	cout << endl;	cout << endl; cout << endl;	cout << endl;
+	cout << " Muchas gracias por su compra.  " << endl;
 	system("pause");	
 }
 
