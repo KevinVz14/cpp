@@ -15,6 +15,7 @@ int barraC(){
 			cout<<"\n"; 	cout<<"\n";
 		cout<<"\n"; 	cout<<"\n";
 	cout<<"\n"; 	cout<<"\n";
+	
 		cout << "\t\t\t\t    CARGANDO...\n";
 		for ( int i = 0; i < 79; i++ ){
 			cout<<char(219);

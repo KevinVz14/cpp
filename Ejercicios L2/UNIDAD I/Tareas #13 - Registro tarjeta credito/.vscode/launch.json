@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/8530p/Desktop/CLASES U 2022/III PAC 2022/LENGUAJE II/UNIDAD I/Tareas #13 - Registro tarjeta credito",
+      "program": "c:/Users/8530p/Desktop/CLASES U 2022/III PAC 2022/LENGUAJE II/UNIDAD I/Tareas #13 - Registro tarjeta credito/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
