@@ -8,7 +8,7 @@ float precioBoleto = 0, pF = 0,suma = 0, promedio = 0;
 
     //FUNCION PARA CALCULAR LOS PRECIOS FINALES 
     float precioFinal(){
-        //CONDICION MENOR DE 12 AÃ‘OS
+        //CONDICION MENOR DE 12 AÑOS
         if (edad<12){
             pF = precioBoleto - (precioBoleto*0.10);
         } 
