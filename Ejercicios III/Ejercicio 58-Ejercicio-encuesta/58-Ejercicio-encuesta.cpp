@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main ()
-{
+int main (){
 	string alumnos[3];
 	
 	string encuesta[3][2] = {
